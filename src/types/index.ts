@@ -12,6 +12,8 @@ export interface ClassicChapter {
   book: BookId
   chapterNumber: number
   title: string
+  baseTitle?: string
+  sourceUrl?: string
   introduction: string
   originalText: string
   punctuatedText: string
@@ -73,6 +75,13 @@ export interface Meridian {
   mainAcupoints: string[]
   relatedSymptoms: string[]
   originalReferences: Reference[]
+  sourceText?: string
+  pairedMeridian?: string
+  flowTime?: string
+  chartSide?: 'front' | 'back' | 'side'
+  pathPoints?: Array<{ x: number; y: number; label?: string }>
+  branchRoutes?: string[]
+  clinicalKeywords?: string[]
 }
 
 export interface SeasonalCare {

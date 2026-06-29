@@ -12,7 +12,7 @@ export default function HomePage() {
         <div>
           <p className="mb-4 text-sm font-bold tracking-[0.35em] text-cinnabar">HUANGDI NEIJING</p>
           <h1 className="font-serifCN text-5xl font-black leading-tight text-ink md:text-7xl">黄帝内经<br />生命经典知识系统</h1>
-          <p className="mt-6 max-w-2xl text-xl leading-9 text-ink/70">从原文阅读到知识图谱，从阴阳五行到四时养生，系统理解《黄帝内经》的生命观。</p>
+          <p className="mt-6 max-w-2xl text-xl leading-9 text-ink/70">完整整理《素问》《灵枢》162篇目录，从原文阅读到知识图谱，从十二经络到四时养生，系统理解《黄帝内经》的生命观。</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link href="/classics" className="rounded-full bg-ink px-6 py-3 text-paper hover:bg-cinnabar">开始阅读</Link>
             <Link href="/concepts" className="rounded-full border border-ink/20 px-6 py-3 text-ink hover:border-cinnabar hover:text-cinnabar">查看知识地图</Link>
@@ -35,7 +35,7 @@ export default function HomePage() {
       </section>
 
       <section className="grid gap-6 md:grid-cols-3">
-        <Card title="原典阅读" eyebrow="CLASSICS" description="阅读《素问》《灵枢》的原文、断句、白话、关键词和思想解读。" href="/classics" />
+        <Card title="原典阅读" eyebrow="CLASSICS" description="完整整理《素问》《灵枢》162篇目录，支持原典源全文读取、断句、白话、关键词和思想解读。" href="/classics" />
         <Card title="知识体系" eyebrow="KNOWLEDGE" description="从阴阳五行、脏腑经络、气血津液、病因病机建立整体框架。" href="/concepts" />
         <Card title="AI 读书助手" eyebrow="AI READER" description="只回答经典学习问题，拒绝诊断、开方和治疗类请求。" href="/ai-reader" />
       </section>
