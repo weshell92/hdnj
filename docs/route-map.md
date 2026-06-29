@@ -1,0 +1,22 @@
+# 路由地图
+
+- `/` 首页
+- `/classics` 原典阅读
+- `/classics/suwen` 素问列表
+- `/classics/lingshu` 灵枢列表
+- `/classics/[book]/[chapterId]` 篇章详情
+- `/concepts` 知识体系
+- `/concepts/[conceptId]` 概念详情
+- `/zangfu` 脏腑系统
+- `/zangfu/[organId]` 脏腑详情
+- `/meridians` 经络系统
+- `/meridians/[meridianId]` 经络详情
+- `/seasons` 四季养生
+- `/seasons/[seasonId]` 季节详情
+- `/quotes` 名句精读
+- `/quotes/[quoteId]` 名句详情
+- `/learning` 学习路径
+- `/compare` 古今对照
+- `/ai-reader` AI 读书助手
+- `/search` 全站搜索
+- `/about` 关于本站
