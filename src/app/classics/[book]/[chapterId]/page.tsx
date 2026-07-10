@@ -7,8 +7,6 @@ import { bookNames, classicChapters, getAdjacentChapters, getChapter } from '@/d
 import { getCtextOriginalText } from '@/lib/ctext'
 import type { BookId } from '@/types'
 
-export const dynamic = 'force-dynamic'
-
 export function generateStaticParams() {
   return classicChapters.map((chapter) => ({ book: chapter.book, chapterId: chapter.id }))
 }
